@@ -1,0 +1,676 @@
+*{margin: 0;  padding: 0; box-sizing: border-box; font-family: 'lato';}
+
+main {  max-width: 1366%; margin: 0; }
+       /* bigning of nav*/
+    ul.nav-items {
+         list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: rgb(168, 11, 41);
+        height: 7vh; position: fixed; top: 0; width: 100%;}
+      li {
+        float: left;
+        border-right:1px solid rgb(248, 246, 235) }
+      li a {
+        display: block; color: white; text-align: center;
+        padding: 10px 16px;
+        text-decoration: none; }
+      li a:hover:not(.active) { background-color:rgb(52, 52, 48); }
+      .active { background-color: rgb(52, 52, 48); }
+      /* end of nav*/
+
+body { background-color:rgb(248, 246, 235); font-family: system-ui,Arial, Helvetica, sans-serif;  color: white; }
+/*Page one fatmah */
+.bg-img1{ padding: 9%;  background-image: url("img/sidered.png");  background-repeat: no-repeat;
+   background-size: 33%; background-position: right top; }
+
+#br1 {  background: rgb(52, 52, 48); position: static;  padding: 100px;  
+   background-attachment: fixed; background-image: url("../begning/img/girl.png");
+   background-repeat: no-repeat; background-position: right bottom; background-size: 35%; color:rgb(251, 251, 251); }
+   #br1 h1 { font-size: 100px;}
+   #br1 p { font-size: 30px;}
+   #br1 h1:hover{
+    -webkit-text-size-adjust: 2px;
+    color:rgb(255, 222, 222);
+    transition: 0.3s;
+  }
+   #br1 p:hover{
+    -webkit-text-stroke: 2px;
+    color:rgb(255, 222, 222);
+    transition: 0.3s;
+  }
+/*Page one  */
+/*THE THANK YOU  */
+
+
+#TX1 {  background: rgb(52, 52, 48); position: static;  padding: 200px;  
+  background-attachment: fixed; background-image: url("../begning/img/girl.png");
+  background-repeat: no-repeat; background-position: right bottom; background-size: 35%; color:rgb(251, 251, 251);
+text-align: center; }
+  #TX1 h1 { font-size: 100px;}
+  #TX1 p { font-size: 30px;}
+  #TX1 h1:hover{
+   -webkit-text-size-adjust: 2px;
+   color:rgb(255, 222, 222);
+   transition: 0.3s;
+ }
+  #TX1 p:hover{
+   -webkit-text-stroke: 2px;
+   color:rgb(255, 222, 222);
+   transition: 0.3s;
+ }
+ .ch{  position: absolute;  top: 20rem;  left: 30rem;  align-items: center;}
+
+
+ /*THE THANK YOU   */
+
+/*bage two  */
+   .bg-img2 { padding: 15%; position: static; top: 3px;
+    background-image: url("img/sidepink.png"); background-repeat: no-repeat;
+    background-size: 40%;  background-position: left bottom;}
+
+    .aortalogo{  position: absolute;  top: 40rem;  left: 30rem;  align-items: center;}
+
+    section.pinkpage2 {  background: rgb(255, 222, 222); position: static;
+      top: 1px; padding: 120px ; display: flex; }
+   
+    section.pinkpage2 div h1{  color: rgb(255, 222, 222);  font-size: 50px;  text-align: center;  }
+    section.pinkpage2 div  {
+      background: rgb(52, 52, 48); color: rgb(255, 222, 222);
+      position: static; top: 20; bottom: 50; left: 50; right: 50;
+      padding: 100px 250px; font-size: large; text-align: center;  }
+    .button  {
+      background-color:rgb(168, 11, 41); border: none; color: rgb(255, 222, 222);
+      padding: 15px 32px; text-align: center; text-decoration: none;
+      display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;}
+.page2img { position: absolute; top: 80rem; left: 60rem;  align-items: center; }
+/*bage two  */
+
+/*bage three  */
+
+
+
+ 
+/* blood-donation bage */
+section.qout {
+  background: rgb(52, 52, 48); position: static;  padding: 50px;   }
+ div.Qu  {
+      background: rgb(248, 246, 235);
+      position: static;  padding: 130px;  
+      color: rgb(52, 52, 48);
+      font-size: 35px;
+      font-weight: 600;
+      text-align: center; 
+    display: flex; }
+    .Qu p:hover{
+      -webkit-text-stroke: 2px;
+      color:rgb(168, 11, 41);
+      transition: 0.5s;
+    }
+    video {
+      position: absolute; top:4rem; left: 48rem; 
+      width: 44%;
+      height: 44%;
+    }
+    .bddimg5 { position: absolute; top: 47rem; left: 49rem;  align-items: center; width: 500px;}
+
+section.blood-donation {
+    background: rgb(52, 52, 48);
+    position: static;
+    top: 1px;
+    padding: 100px 200px ;
+    display: flex; }
+
+    section.blood-donation div h1{  color:rgb(52, 52, 48); font-size: 50px;  text-align: center;  }
+    
+  
+
+  section.blood-donation div  {
+    background: rgb(255, 222, 222);
+    position: static;
+    padding: 150px 150px ;
+    color: rgb(52, 52, 48);
+    font-size: large;
+    text-align: left;
+  font-style: oblique;  }
+ 
+/* blood-donation bage */
+
+/* gaida  */
+
+
+.page{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  margin-top: 7rem;
+  font-size:5px;
+  margin-left: 5px;
+  text-align:left;
+}
+.page1 h1{
+  background-color: rgb(255, 222, 222);
+  padding: 70px;
+  border-radius: 8rem;
+  border-color:rgb(52, 52, 48);
+  border-style:solid;
+  color: rgb(52, 52, 48);
+  font-size: 20px;
+  border-width: 20px;
+  
+}
+.page2 h1{
+  color: rgb(52, 52, 48);
+  background-color: rgb(255, 222, 222);
+  padding: 70px;
+  border-radius: 8rem;
+  border-color: rgb(52, 52, 48);
+  border-style:solid;
+  font-size: 20px;
+  border-width: 20px;
+}
+.page1a{
+  font-family: inherit;
+  padding: 10px;
+  border: none;
+  color:#ffdede;
+  border-radius:5rem;
+  cursor:pointer;
+  font-size:20px;
+  background-color: rgb(168, 11, 41);
+ text-align: center;
+}
+.page1a:hover{
+  background-color: rgb(52, 52, 48);
+}
+.page2a{
+  font-family: inherit;
+  padding: 10px;
+  border: none;
+  color:#ffdede;
+  border-radius:5rem;
+  cursor:pointer;
+  font-size:20px;
+  background-color:rgb(168, 11, 41);
+ text-align: center;
+
+}
+.page2a:hover{
+  background-color: rgb(52, 52, 48);
+}
+/* gaida  */
+
+/* wasife  */
+.stories h1{
+  font-size: 70px;
+  color: rgb(255, 222, 222);
+}
+
+.stories{
+  width:100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  background-color: rgb(80, 79, 75);
+}
+
+.stories-col{
+  flex-basis: 31%;
+  background-color: rgb(255, 222, 222);
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding:40px 12px ;
+  text-align: left;
+  font-size: small;
+}
+.stories-col img{
+width: 50%; 
+}
+.stories-col h1 {
+ font-size: 30px; 
+ padding: 0;
+  text-align: center;
+ color:  rgb(80, 79, 75);
+ 
+}
+.stories-col p{
+  font-size: 15px; 
+ font-synthesis: style;
+  padding: 0;
+  text-align: center;
+ color:  rgb(80, 79, 75);
+}
+
+
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row .stories-col h3{
+  text-align: center;
+
+}
+
+
+
+
+
+
+.gbody{
+  padding: 40px 300px;
+  display: block;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(140deg, rgb(234, 178, 178),rgb(248, 246, 235));
+}
+
+.SignUp h1{
+  color: rgb(148, 23, 23);
+  font-size: 35px;
+  margin-left: 40%;
+  margin-right: 50px;
+  float: center;
+}
+.SignUp{
+  max-width: 700px;
+  width: 100%;
+  background-color: rgb(210, 118, 118);
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgb(6, 7, 6);
+}
+.SignUp form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details [type="password"]{
+  margin-left: 4px;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+
+}
+.user-details .input-box .deatils{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5%;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+}
+form .gender-details .gender-title{
+  font-size: 20px;
+  font-weight: 500;
+}
+form .gender-details .category{
+  display: flex;
+  width: 80%;
+  margin: 14px 0;
+  justify-content: space-between;
+}
+.gender-details .category label{
+  display: flex;
+  align-items: center;
+}
+.gender-details .category .dot{
+  height: 18px;
+  width: 18px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two{
+  border-color: #d9d9d9;
+  background: #480615;
+}
+form input[type="radio"]{
+  display: none;
+}
+form .button{
+  width: 150px;
+  height: 47px;
+  margin: 45px 0;
+  align-self:center;
+  margin-left: 200px;
+}
+form .button input{
+  width: 120px;
+height: 40px;
+margin-left: 50px;
+  outline: none;
+  color: rgb(75, 3, 3);
+  border:rgb(149, 81, 81);
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background:linear-gradient(140deg, rgb(112, 45, 55),rgb(220, 97, 97));
+  
+cursor: pointer;
+
+
+  }
+  form .button:hover{
+background-color: #862d2d;
+box-shadow: #ecd5db;
+  }
+  
+/* maysam-sarah  */
+body  {
+  display :flex;
+  justify-self: center;
+  align-items: center;
+  min-height: 200vh;
+  background:#e49a9a;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.page  {
+display: flex;
+justify-content: center;
+margin-left: 350px;
+align-items: center;
+width: 500px;
+height:350px;
+background:rgba(156, 123, 123, 0.155);
+border: 2px solid #f8f0f09d;
+backdrop-filter: blur(10px);
+box-shadow: 0 0 30px rgba(242, 240, 240, 0.5);
+color:#000000;
+border-radius:20px;
+padding: 20px 60px;
+}
+
+
+.page h1{
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+.page .input-box{
+  position:relative;
+  width: 100%;
+  height: 30px;
+  margin: 30px 0;
+  border-bottom:1px solid rgb(126, 69, 111);
+
+}
+.input-box input{
+  background: transparent;
+  border:none;
+  outline:none ;
+  font-size:14px;
+ 
+ 
+}
+
+.input-box input::placeholder{
+  color:rgb(244, 239, 239);
+  
+}
+  
+
+
+.page .register-link{
+  font-size: 15.5px;
+  text-align:center;
+  margin: 50px 0 15px;
+  color:#443739;
+
+}
+
+.register-link p a {
+  color:rgb(0, 0, 0);
+  text-decoration:none;
+  font-weight:900;
+}
+.register-link p a:hover{
+  text-decoration: underline;
+}
+
+
+.page .input-box i {
+  position:absolute;
+  height:1px;
+  align-items: end;
+  color:rgb(7, 7, 7);
+  
+  font-size:20px;
+  }
+
+  .page input[type="text"] , [type="password"]{
+width: 220px;
+height: 20px;
+margin-bottom: 10px;
+margin-left: 45px;
+border:1px  solid(168, 11, 41);
+border-radius: 10px;
+outline:none;
+
+  }
+ .page.Login.btn {
+ width: 300px;
+height: 40px;
+margin-left: 50px;
+border:1px  solid #964b4b;
+color:rgb(43, 16, 16);
+font-size: 15px;
+border-radius: 10px;
+outline:none;
+align-items: center;
+align-self:center;
+cursor: pointer;
+  }
+.Login.btn:hover{
+background-color: #852f2f;
+box-shadow: #480615;
+  }
+  
+
+
+  body  {
+    font-family: 'Poppins' , sans-serif;
+
+display :flex;
+ justify-self: center;
+align-items: center;
+min-height: 200vh;
+background:#edc1c1;
+background-size: cover;
+height: 100vh;
+font-family: Arial, Helvetica, sans-serif;
+h2 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 20px;
+  }
+
+}
+.otp-card{
+margin-left: 350px;
+text-align: center;
+background-color: #edb5b5;
+border-radius: 20px;
+padding: 3rem;
+box-shadow: 0 10px 40px -20px black ;
+}
+.otp-card-inputs{
+margin: 30px 0;
+display: grid;
+justify-content: center;
+grid-template-columns: repeat(5,auto);
+
+}
+.otp-card-inputs input{
+width: 50px;
+height: 40px;
+font-size: 30px;
+text-align: center;
+border-radius: 20px;
+border: 1px solid black;
+}
+
+.otp-card-inputs input :focus{
+outline: 2px solid #e49a9a;
+
+}
+.otp-card button{
+
+width: 150px;
+height: 40px;
+margin-left: 10px;
+border:1px  solid #964b4b;
+color:rgb(43, 16, 16);
+font-size: 15px;
+border-radius: 10px;
+outline:none;
+align-items: center;
+align-self:center;
+cursor: pointer;
+}
+.otp-card button :hover { 
+opacity: 9;
+background-color: #852f2f;
+box-shadow: #480615;
+}
+
+.otp-card button[disabled]{
+opacity: 6;
+cursor:default;
+}
+
+/* reham */
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  position: relative;
+  background: rgb(233, 156, 189);
+  font-variant: bold;
+  font-size: medium;
+  font-family: sans-serif;
+  display:inline-block;
+  justify-self:center;
+  width: 500px;
+  align-items:center;
+  text-align: justify;
+  min-height: 300px;
+  margin-top: 200px;
+  left: 400px;
+  background-size:cover;    
+   background-position:center;
+   box-shadow: 0 10px 10px 0 rgb(248, 246, 235);
+  box-shadow: 0 6px 20px 0  rgb(255, 222, 222);
+
+}
+.input-box
+{
+  background: rgb(235, 193, 211);
+box-sizing: border-box;
+padding: 10px  20px;
+text-decoration:none;
+color: #000000;
+list-style: circle;
+box-shadow:inset;
+nav-index:auto;
+  position:relative;
+font-display:inherit;
+  margin: 50px;
+  margin-top: 100px;
+bottom: 7%;
+  display:inline-block;
+  list-style-position: outside;
+  -webkit-appearance: none;
+  transform:(-50,-50);
+  box-shadow: 0 4px 10px 0 rgb(248, 246, 235);
+  box-shadow: 0 6px 20px 0  rgb(255, 222, 222);
+}
+
+.input-box-write{
+  background: rgb(198, 180, 190);
+  margin-bottom: 40px;
+position:relative;
+top: 200px;
+box-shadow: inset;
+padding-top: 400px;
+display:contents;
+}
+.input-type.span.div{
+    border-color: #000000;
+    display:inline-flex;
+    border-style: double;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    padding: 20px 20px;
+    padding-top: 50px;
+    position:relative;
+    top: 200px;
+    box-shadow: inset;
+    padding-top: 400px;
+    
+}
+.btn-layer{
+  display:flex;
+  position: relative;
+  left:200px;
+ color: rgb(236, 216, 231);
+  color: rgb(236, 228, 228);
+  padding: 40px 30px;
+  outline: none;
+  background-image:-webkit-image-set(1px);
+  border:1px solid rgb(233, 156, 189);
+ padding: 12px , 34px;
+}
+.location-img {
+  width: 5%;
+  height: 10%;
+ left: 50px;
+  border-radius: 50%;
+background-image:inherit;
+  display:inline-block;
+  padding-top: 20px;
+  transition: transform 0.5s;
+  cursor:auto;
+
+}
+.frame{
+  background: linear-gradient(-30deg,#fbf9fa 30%, #fbf7fa 30%);
+  padding: 6px 7px;
+  margin: 12px;
+  margin-left: 190px;
+  display: inline-block;
+  -webkit-transform: translate(0%,0%);
+  transform: translate(0%,0%);
+  overflow: hidden;
+  color: #d4e0f7;
+  font-size: 8px;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 1.5px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor:alias;
+  -webkit-box-shadow: 0 10px 10px rgba(240, 161, 223, 0.5);
+}
